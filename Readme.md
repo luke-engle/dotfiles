@@ -1,6 +1,6 @@
-# Ethan Dennis' Dot Files
+# Luke Engle's Dot Files
 
-This sets up my macOS environment as I like. These scripts take heavy inspriation from [ryanb](https://github.com/ryanb/dotfiles).
+This sets up my macOS environment as I like. These scripts take heavy inspriation from [ethanis](https://github.com/ethanis/dotfiles).
 
 ## Installation
 

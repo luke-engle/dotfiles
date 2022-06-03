@@ -58,10 +58,10 @@ def install_homebrew_utils
   system('brew install thefuck', out: STDOUT) unless command_found?("thefuck")
 
   puts "Installing zsh-syntax-highlighting"
-  system('brew install zsh-syntax-highlighting', out: STDOUT) unless File.exist?("/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh")
+  system('brew install zsh-syntax-highlighting', out: STDOUT) unless File.exist?("/opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh")
 
   puts "Installing zsh-history-substring-search"
-  system('brew install zsh-history-substring-search', out: STDOUT) unless File.exist?("/usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh")
+  system('brew install zsh-history-substring-search', out: STDOUT) unless File.exist?("/opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh")
 end
 
 def install_node
