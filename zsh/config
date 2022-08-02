@@ -1,7 +1,7 @@
 #!/bin/env zsh
 
 # export default env
-export EDITOR="code --new-window"
+export EDITOR="vim"
 eval "$(rbenv init -)"
 eval "$(thefuck --alias dang)"
 

@@ -56,6 +56,7 @@ alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gf='git fetch'
 alias gfo='git fetch origin'
 alias glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
+alias gpb='git push origin $(git branch --show-current)'
 
 # rails
 alias sc='script/console'
