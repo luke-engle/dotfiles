@@ -28,7 +28,7 @@ alias sc="script/console"
 alias server="script/server"
 alias shell="script/shell"
 alias st="script/test"
-alias lint="bin/rubocop"
+alias lint="bundle exec standardrb --fix"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
